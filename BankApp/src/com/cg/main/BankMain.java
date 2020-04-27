@@ -16,7 +16,7 @@ public class BankMain {
         // TODO Auto-generated method stub
         
         try {
-            Connection mycon=DriverManager.getConnection("jdbc:mysql://localhost:3306/librarydb","root","deepU.13");
+            Connection mycon=DriverManager.getConnection("jdbc:mysql://localhost:3306/librarydb","root","ikram786md");
             Scanner KB=new Scanner(System.in);
             
             PreparedStatement scmt=mycon.prepareStatement("select * from bankdetails");
